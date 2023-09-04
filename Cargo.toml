@@ -1,12 +1,12 @@
 [package]
 name = "manic"
 version = "0.8.1"
-authors = ["x0f5c3 <x0f5c3@tutanota.com>"]
+authors = ["x0f5c3 <x0f5c3@tutanota.com>", "fanyang89 <fanyang89@outlook.com>"]
 edition = "2018"
-description = "Fast and simple downloads"
+description = "Multithread file downloader & uploader"
 readme = "README.md"
-repository = "https://github.com/x0f5c3/manic"
-license = "MIT OR Apache-2.0"
+repository = "https://github.com/zperf/manic-cli"
+license = "MIT"
 keywords = ["download", "http", "async"]
 categories = [
     "asynchronous",
@@ -24,7 +24,6 @@ targets = [
     "x86_64-pc-windows-gnu",
     "aarch64-unknown-linux-gnu",
 ]
-
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [features]
